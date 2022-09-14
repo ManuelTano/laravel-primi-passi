@@ -13,5 +13,7 @@
         <p><?= $student ?></p>
     @endforeach
 
+    <a href="{{ url('/secondpage') }}">Vai alla Second Page</a>
+
 </body>
 </html>

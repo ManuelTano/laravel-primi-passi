@@ -18,3 +18,7 @@ Route::get('/', function () {
     return view('home', compact('students'));
 });
 
+Route::get('/secondpage', function () {
+    return view('secondpage.secondhome');
+});
+

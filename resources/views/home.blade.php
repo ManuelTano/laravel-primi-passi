@@ -8,5 +8,9 @@
 </head>
 <body>
     <h1>Hello world!</h1>
+
+    <?php foreach($students as $student) : ?>
+        <p><?= $student ?></p>
+    <?php endforeach ?>
 </body>
 </html>
